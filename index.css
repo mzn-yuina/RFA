@@ -1,0 +1,65 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap'); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: palevioletred;
+}
+
+.drop-area {
+  width: 350px;
+  height: 300px;
+  margin: auto;
+
+  color: white;
+  border: 1px dashed white;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.drop-area span {
+  padding: 10px 25px;
+  font-size: 1.5rem;
+}
+
+.drop-area button {
+  padding: 10px 25px;
+  font-size: 1.0rem;
+
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.drop-area button:hover {
+  color: palevioletred;
+  background-color: white;
+}
+
+.drop-area img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px
+}
+
+.dragover {
+  background-color: pink;
+}
