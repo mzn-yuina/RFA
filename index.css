@@ -16,7 +16,7 @@ body {
 }
 
 .drop-area {
-  width: 350px;
+  width: min(350px, 80vw);
   height: 300px;
   margin: auto;
 
@@ -37,6 +37,8 @@ body {
 
 .drop-area button {
   padding: 10px 25px;
+  margin-left: 10px;
+  margin-right: 10px;
   font-size: 1.0rem;
 
   color: white;
